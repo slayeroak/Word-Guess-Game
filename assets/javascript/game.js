@@ -103,7 +103,7 @@ $(document).ready(function() {
         document.getElementById("totalWins").innerText = wins
         document.getElementById("currentTicker").innerText = guessingTicker.join("")
         document.getElementById("guessesRemaining").innerText = numGuess
-        document.getElementById("guessedLetters").innerText = guessedLetters.join(" ")
+        document.getElementById("lettersGuessed").innerText = guessedLetters.join(" ")
     }
 
 
