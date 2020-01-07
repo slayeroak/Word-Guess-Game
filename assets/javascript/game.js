@@ -3,7 +3,7 @@ $(document).ready(function() {
     var gameTickerArry = ["aapl", "acb", "amzn", "amd", "ba", "baba", "bac", "bayry", "bynd", "cat", "cgc", "d", "dis",
                             "etsy", "f", "fb", "ge", "goog", "hpq", "hmy", "ibm", "irdm","jnj", "jpm", "k", "keys", "lmt",
                              "lulu", "msft", "mcd", "nflx", "nok", "qcom", "rad", "roku", "shop", "snap", "tlry", "tmus",
-                             "tsg", "tsla", "uber", "ua", "vs", "vz", "wmt", "work", "yelp", "yten", "znga", "zm",]
+                             "tsg", "tsla", "uber", "ua", "vs", "vz", "wmt", "work", "yelp", "yten", "znga", "zm"]
 
     const maxGuess = 10
     var pauseGame = false
@@ -77,7 +77,7 @@ $(document).ready(function() {
     function isAlpha (ch) {
         return /^[A-Z]$/i.test(ch);
     }
-
+    // reset game
     function resetGame() {
         numGuess = maxGuess
         pauseGame = false
